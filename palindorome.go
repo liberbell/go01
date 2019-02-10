@@ -14,7 +14,7 @@ func main() {
 	chars[4] = "h"
 	chars[5] = "b"
 
-	fmt.println("A Palindrome")
+	fmt.Println("A Palindrome")
 	fmt.Println("************")
 	var buffer bytes.Buffer
 	for i := 0; i < len(chars); i++ {
@@ -23,5 +23,5 @@ func main() {
 	for i := len(chars) - 2; i >= 0; i-- {
 		buffer.WriteString(chars[i])
 	}
-	fmt.println(buffer.string())
+	fmt.Println(buffer.String())
 }
