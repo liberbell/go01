@@ -1,6 +1,10 @@
 package main
 
-import "fmt"
+import {
+  "fmt"
+  "bufio"
+  "os"
+  }
 
 func main() {
 
