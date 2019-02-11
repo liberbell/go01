@@ -16,5 +16,6 @@ func main() {
   fmt.Print("Enter Text: ")
 
   str, _ := reader.ReadString('\n')
+  fmt.Println(str)
 
 }
