@@ -20,4 +20,5 @@ func main() {
 
 	fmt.Printf("value of number: %v\n", aNumber)
 	fmt.Printf("Value of isTrue: %v\n", isTrue)
+	fmt.Printf("value of number as float: %.2f\n", aNumber)
 }
