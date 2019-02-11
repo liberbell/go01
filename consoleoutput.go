@@ -11,5 +11,9 @@ func main() {
 	// aNumber := 42
 	// isTrue := true
 
-	fmt.Println(str1, str2, str3)
+	stringLength, err := fmt.Println(str1, str2, str3)
+
+	if err == nil {
+		fmt.Println("String length:", stringLength)
+	}
 }
