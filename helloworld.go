@@ -7,5 +7,5 @@ import (
 
 func main() {
 	fmt.Println("Hello from Go!")
-	fmt.Print(strings.ToUpper("Hello really loud"))
+	fmt.Println(strings.ToUpper("Hello really loud"))
 }
