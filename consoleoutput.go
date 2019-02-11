@@ -24,4 +24,8 @@ func main() {
 
 	fmt.Printf("Data types: %T,%T,%T,%T, and,%T\n",
 		str1, str2, str3, aNumber, isTrue)
+
+	myString := fmt.Sprintf("Data types as var: %T,%T,%T,%T, and,%T\n",
+		str1, str2, str3, aNumber, isTrue)
+	fmt.Print(myString)
 }
