@@ -4,6 +4,7 @@ import (
 	"bufio"
 	"fmt"
 	"os"
+	"strconv"
 )
 
 func main() {
@@ -14,8 +15,11 @@ func main() {
 
 	reader := bufio.NewReader(os.Stdin)
 	fmt.Print("Enter Text: ")
-
 	str, _ := reader.ReadString('\n')
 	fmt.Println(str)
+
+	fmt.Print("Enter a number: ")
+	str, _ = reader.ReadString('\n')
+	f, err := strconv.ParseFloat(str, 64)
 
 }
