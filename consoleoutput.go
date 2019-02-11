@@ -1,15 +1,15 @@
 package main
 
-import {
-  "fmt"
-}
+import (
+	"fmt"
+)
 
 func main() {
-  str1 := "The quick red fox"
-  str2 := "jumped over"
-  str3 := "the lazy brown dog."
-  // aNumber := 42
-  // isTrue := true
+	str1 := "The quick red fox"
+	str2 := "jumped over"
+	str3 := "the lazy brown dog."
+	// aNumber := 42
+	// isTrue := true
 
-  fmt.Println(str1, str2, str3)
+	fmt.Println(str1, str2, str3)
 }
