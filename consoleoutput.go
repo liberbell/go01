@@ -10,4 +10,6 @@ func main(
   str3 := "the lazy brown dog."
   // aNumber := 42
   // isTrue := true
+
+  fmt.Println(str1)
 )
