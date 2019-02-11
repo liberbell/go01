@@ -16,4 +16,6 @@ func main() {
 	if err == nil {
 		fmt.Println("String length:", stringLength)
 	}
+
+	fmt.Printf("value of number: %v")
 }
