@@ -21,5 +21,10 @@ func main() {
 	fmt.Print("Enter a number: ")
 	str, _ = reader.ReadString('\n')
 	f, err := strconv.ParseFloat(str, 64)
+	if err != nil {
+		fmt.Println(err)
+	} else {
+		fmt.Println("Value of number: ", f)
+	}
 
 }
