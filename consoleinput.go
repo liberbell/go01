@@ -12,4 +12,9 @@ func main() {
 	fmt.Scanln(&s)
 	fmt.Println(s)
 
+  reader := bufio.NewReader(os.Stdin)
+  fmt.Print("Enter Text: ")
+
+  str, _ := reader.ReadString('\n')
+
 }
