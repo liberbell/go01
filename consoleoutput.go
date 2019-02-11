@@ -22,7 +22,7 @@ func main() {
 	fmt.Printf("Value of isTrue: %v\n", isTrue)
 	fmt.Printf("value of number as float: %.2f\n", float64(aNumber))
 
-	fmt.Printf("Data types: %T,%T,%T,%T, and,%T\n",
+	fmt.Printf("Data types       : %T,%T,%T,%T, and,%T\n",
 		str1, str2, str3, aNumber, isTrue)
 
 	myString := fmt.Sprintf("Data types as var: %T,%T,%T,%T, and,%T\n",
