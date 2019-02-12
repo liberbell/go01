@@ -12,4 +12,5 @@ func main() {
 	fmt.Printf("str2: %v:%T\n", str2, str2)
 
 	fmt.Println(strings.ToUpper(str1))
+	fmt.Println(strings.Title(str1))
 }
