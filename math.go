@@ -21,5 +21,5 @@ func main() {
 	b3.SetFloat64(76.3)
 
 	bigSum.Add(&b1, &b2).Add(&bigSum, &b3)
-	fmt.Printf("Bigsum = %.10g\n:", bigSum)
+	fmt.Printf("Bigsum = %.10g\n:", &bigSum)
 }
