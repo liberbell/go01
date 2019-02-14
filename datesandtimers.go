@@ -11,4 +11,8 @@ func main() {
 
 	now := time.Now()
 	fmt.Printf("The time now is %s\n", now)
+
+	fmt.Println("The month is ", t.Month())
+	fmt.Println("The day is ", t.Day())
+	fmt.Println("The weekday is ", t.Weekday())
 }
