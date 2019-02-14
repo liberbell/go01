@@ -20,6 +20,6 @@ func main() {
 	fmt.Printf("Tomorro is %v, %v %v, %v\n",
 		tomorrow.Weekday(), tomorrow.Month(), tomorrow.Day(), tomorrow.Year())
 
-	longFormat := "Friday, January 15, 2019"
+	longFormat := "Friday, February 15, 2019"
 	fmt.Println("Tomorrow is ", tomorrow.Format(longFormat))
 }
