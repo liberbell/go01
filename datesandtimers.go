@@ -15,4 +15,8 @@ func main() {
 	fmt.Println("The month is ", t.Month())
 	fmt.Println("The day is ", t.Day())
 	fmt.Println("The weekday is ", t.Weekday())
+
+	tomorrow := t.Add(0, 0, 1)
+	fmt.Printf("Tomorro is %v, %v %v, %v\n",
+		tomorrow.Weekday(), tomorrow.Month(), tomorrow.Day(), tomorrow.Year())
 }
