@@ -8,4 +8,6 @@ func main() {
 	states["WA"] = "Washington"
 	states["OR"] = "Oregon"
 	states["CA"] = "California"
+	fmt.Println(states)
+
 }
