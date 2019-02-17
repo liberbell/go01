@@ -20,4 +20,5 @@ func main() {
 	numbers[2] = 3
 	numbers[3] = 5
 	numbers[4] = 28
+	fmt.Println(numbers)
 }
