@@ -9,4 +9,5 @@ func main() {
 	colors[2] = "Blue"
 
 	fmt.Println(colors)
+	fmt.Println(colors[1])
 }
