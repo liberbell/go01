@@ -25,5 +25,5 @@ func main() {
 	fmt.Println("Value 1 :", *pointer1)
 	*pointer1 = *pointer1 / 31
 	fmt.Println("Value 1 :", *pointer1)
-
+	fmt.Println("Value 1 :", Value1)
 }
