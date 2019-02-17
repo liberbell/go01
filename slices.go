@@ -25,4 +25,7 @@ func main() {
 	numbers = append(numbers, 255)
 	fmt.Println(numbers)
 	fmt.Println(cap(numbers))
+
+	sort.Int(numbers)
+	fmt.println(numbers)
 }
