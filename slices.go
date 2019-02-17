@@ -29,6 +29,6 @@ func main() {
 	fmt.Println(numbers)
 	fmt.Println(cap(numbers))
 
-	sort.Int(numbers)
-	fmt.println(numbers)
+	sort.Ints(numbers)
+	fmt.Println(numbers)
 }
