@@ -7,6 +7,8 @@ func main() {
 
 	if p != nil {
 		fmt.Println("Value of p:", *p)
+	} else {
+		fmt.Println("P is nil")
 	}
 
 }
