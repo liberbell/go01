@@ -19,6 +19,6 @@ func main() {
 	numbers[1] = 10
 	numbers[2] = 3
 	numbers[3] = 5
-	numbers[4] = 28
+	numbers[4] = 287
 	fmt.Println(numbers)
 }
