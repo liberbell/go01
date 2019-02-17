@@ -20,4 +20,10 @@ func main() {
 		fmt.Println("P is nil")
 	}
 
+	var Value1 float64 = 42.13
+	pointer1 := &Value1
+	fmt.Println("Value 1 :", *pointer1)
+	*pointer1 = *pointer1 / 31
+	fmt.Println("Value 1 :", *pointer1)
+
 }
