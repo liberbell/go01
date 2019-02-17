@@ -4,6 +4,9 @@ import "fmt"
 
 func main() {
 	var p *int
-	fmt.Println("Value of p:", *p)
+
+	if p != nil {
+		fmt.Println("Value of p:", *p)
+	}
 
 }
