@@ -10,4 +10,8 @@ func main() {
 
 	fmt.Println(colors)
 	fmt.Println(colors[1])
+
+	var numbers = [5]int{5, 3, 1, 2, 4}
+	fmt.Println(numbers)
+
 }
