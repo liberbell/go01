@@ -32,5 +32,9 @@ func main() {
 		keys[i] = k
 		i++
 	}
-	sort.Strings(key)
+	sort.Strings(keys)
+	fmt.Println("\nSorted")
+	for i := range keys {
+		fmt.Println(states[keys[i]])
+	}
 }
