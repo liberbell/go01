@@ -13,4 +13,7 @@ func main() {
 
 	california := states["CA"]
 	fmt.Println(california)
+
+	delete(states, "OR")
+	fmt.Println(states)
 }
