@@ -11,4 +11,5 @@ func main() {
 	poodle := Dog{"Poodle", 20}
 	fmt.Println(poodle)
 	fmt.Printf("%+v\n", poodle)
+	fmt.Printf("Breed: %v\nWeight: %v", poodle.Breed, poodle.Weight)
 }
