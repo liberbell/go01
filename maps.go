@@ -16,4 +16,10 @@ func main() {
 
 	delete(states, "OR")
 	fmt.Println(states)
+
+	states["NY"] = "New York"
+
+	for k, v := range states {
+		fmt.Printf("%v: %v\n", k, v)
+	}
 }
