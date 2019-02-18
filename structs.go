@@ -8,6 +8,7 @@ type Dog struct {
 }
 
 func main() {
-	poodle := Dog{"poodle", 20}
+	poodle := Dog{"Poodle", 20}
 	fmt.Println(poodle)
+	fmt.Printf("%+v\n", poodle)
 }
