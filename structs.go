@@ -6,5 +6,6 @@ type Dog struct {
 }
 
 func main() {
-
+	poodle := Dog{"poodle", 20}
+	fmt.println(poodle)
 }
