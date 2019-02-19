@@ -14,5 +14,6 @@ func main() {
 		result = "Greater than zero"
 	}
 	fmt.Println("Result:", result)
+	fmt.Println("Value of x:", x)
 
 }
