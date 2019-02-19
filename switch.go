@@ -20,7 +20,6 @@ func main() {
 		result = "It`s saturday."
 	default:
 		result = "It`s weekday."
-
 	}
 	fmt.Println("Day", dow, ",", result)
 }
