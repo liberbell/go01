@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	// var x float64 = 0
+	var x float64 = 0
 	var result string
 
 	if x := 42; x < 0 {
@@ -14,6 +14,6 @@ func main() {
 		result = "Greater than zero"
 	}
 	fmt.Println("Result:", result)
-	fmt.Println("Value of x:", x)
+	// fmt.Println("Value of x:", x)
 
 }
