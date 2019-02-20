@@ -10,7 +10,7 @@ func main() {
 	fmt.Println(colors)
 
 	sum = 0
-	for i := 0; i < 10; i++ {
+	for i := 0; i < 100000; i++ {
 		sum += i
 	}
 	fmt.Println("Sum: ", sum)
