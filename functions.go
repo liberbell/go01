@@ -7,7 +7,7 @@ func main() {
 	sum := AddValues(23, 54)
 	fmt.Println("Sum: ", sum)
 
-  sum AddAllvalues(10, 23, 44)
+	sum = AddAllvalues(10, 23, 44)
 }
 
 func dosomething() {
@@ -19,7 +19,7 @@ func AddValues(value1 int, value2 int) int {
 }
 
 func AddAllValues(values ...int) int {
-  sum := 0
-  fmt.Printf("%T\n", values)
-  return sum
+	sum := 0
+	fmt.Printf("%T\n", values)
+	return sum
 }
