@@ -4,6 +4,8 @@ import "fmt"
 
 func main() {
 	dosomething()
+	sum := AddValues(23, 54)
+	fmt.Println("Sum: ", sum)
 }
 
 func dosomething() {
