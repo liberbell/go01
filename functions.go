@@ -8,6 +8,7 @@ func main() {
 	fmt.Println("Sum: ", sum)
 
 	sum = AddAllvalues(10, 23, 44)
+	fmt.Println("New sum: ", sum)
 }
 
 func dosomething() {
