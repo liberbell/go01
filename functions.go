@@ -18,7 +18,7 @@ func AddValues(value1 int, value2 int) int {
 	return value1 + value2
 }
 
-fun AddAllValues(values ...int) int {
+func AddAllValues(values ...int) int {
   sum := 0
   fmt.Printf("%T\n", values)
   return sum
