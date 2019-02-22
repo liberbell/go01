@@ -25,10 +25,10 @@ func main() {
 	sum = 1
 	for sum < 1000 {
 		sum += sum
-		fmt.Println("Sum: ", sum)j
-    if sum > 500 {
-      break
-    }
+		fmt.Println("Sum: ", sum)
+		if sum > 500 {
+			break
+		}
 	}
 
 }
