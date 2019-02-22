@@ -1,5 +1,11 @@
 package main
 
+import "fmt"
+
 func main() {
-	fmt
+	dosomething()
+}
+
+func dosomething() {
+	fmt.Println("Doing Something")
 }
