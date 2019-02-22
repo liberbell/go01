@@ -21,6 +21,9 @@ func AddValues(value1 int, value2 int) int {
 
 func AddAllValues(values ...int) int {
 	sum := 0
+	for i := range values {
+		sum += values[i]
+	}
 	fmt.Printf("%T\n", values)
 	return sum
 }
