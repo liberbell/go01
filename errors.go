@@ -20,7 +20,7 @@ func main() {
 	attendance := map[string]bool{
 		"Ann":  true,
 		"Mike": true}
-	attended, ok := attendance["Mike"]
+	attended, ok := attendance["M"]
 	if ok {
 		fmt.Println("Mike attended?", attended)
 	} else {
