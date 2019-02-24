@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 type Animal interface {
-	speak() string
+	Speak(volume int) string
 }
 
 type Dog struct {
@@ -14,6 +14,6 @@ func (d Dog) Speak() string {
 }
 
 func main() {
-	poodle := Dog{}
+	poodle := Animal(Dog{})
 	fmt.Println(poodle)
 }
