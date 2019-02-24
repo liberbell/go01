@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 type Animal interface {
-	Speak(volume int) string
+	Speak() string
 }
 
 type Dog struct {
