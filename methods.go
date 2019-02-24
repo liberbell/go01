@@ -24,4 +24,6 @@ func main() {
 
 	poodle.Sound = "Arf"
 	poodle.Speak()
+
+	poodle.SpeakThreeTimes()
 }
