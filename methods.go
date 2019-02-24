@@ -21,6 +21,7 @@ func main() {
 	poodle := Dog{"Poodle", 49, "Woof"}
 	fmt.Println(poodle)
 	poodle.Speak()
+	poodle.SpeakThreeTimes()
 
 	poodle.Sound = "Arf"
 	poodle.Speak()
