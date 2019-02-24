@@ -17,14 +17,13 @@ func main() {
 	myError := errors.New("My error string")
 	fmt.Println(myError)
 
-  attendance := map[string]bool{
-    "Ann" : true
-    "Mike": true
-  }
-  attended, ok := attendance["Mike"]
-  if ok {
-    fmt.Println("Mike attended?", attended)
-  } else {
-    fmt.Println("No info for Mike")
-  }
+	attendance := map[string]bool{
+		"Ann":  true,
+		"Mike": true}
+	attended, ok := attendance["Mike"]
+	if ok {
+		fmt.Println("Mike attended?", attended)
+	} else {
+		fmt.Println("No info for Mike")
+	}
 }
