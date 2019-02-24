@@ -9,7 +9,7 @@ type Animal interface {
 type Dog struct {
 }
 
-func (d Dog) speak() {
+func (d Dog) Speak() string {
 	return "Woof!"
 }
 
