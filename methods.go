@@ -18,4 +18,5 @@ func main() {
 	poodle.Speak()
 
 	poodle.Sound = "Arf"
+	poodle.Speak()
 }
