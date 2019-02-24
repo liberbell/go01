@@ -27,4 +27,5 @@ func main() {
 	poodle.Speak()
 
 	poodle.SpeakThreeTimes()
+	poodle.SpeakThreeTimes()
 }
