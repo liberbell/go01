@@ -5,7 +5,7 @@ import "fmt"
 var isConnected bool = false
 
 func main() {
-	fmt.Printf("Connection open: %v", isConnected)
+	fmt.Printf("Connection open: %v\n", isConnected)
 	doSomething()
 	fmt.Printf("Connection open: %v\n", isConnected)
 }
