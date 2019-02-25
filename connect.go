@@ -17,3 +17,13 @@ func doSomething() {
 	fmt.Println("Connection open: %v\n", isConnected)
 	fmt.Println("Doing something!")
 }
+
+func connect() {
+	isConnected = true
+	fmt.Println("Connected to database!")
+}
+
+func disconnect() {
+	isConnected = false
+	fmt.Println("Disconnected!")
+}
