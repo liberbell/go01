@@ -10,5 +10,5 @@ func main() {
 	defer fmt.Println("Statement2")
 	defer fmt.Println("Statement3")
 	defer fmt.Println("Statement4")
-	defer fmt.Println("Statement5")
+	fmt.Println("Undefered Statement")
 }
