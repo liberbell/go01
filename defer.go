@@ -8,6 +8,9 @@ func main() {
 
 	defer fmt.Println("Statement1")
 	defer fmt.Println("Statement2")
+
+	myFunc()
+
 	defer fmt.Println("Statement3")
 	defer fmt.Println("Statement4")
 	fmt.Println("Undefered Statement")
@@ -15,5 +18,5 @@ func main() {
 
 func myFunc() {
 	defer fmt.Println("Deferred in the function")
-	fmt.Println("Not Deferred in the function")
+	fmt.Println("Not deferred in the function")
 }
