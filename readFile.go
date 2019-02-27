@@ -1,7 +1,12 @@
 package main
 
+import "io/ioutil"
+
 func main() {
-	filename := "hello.txt"
+	fileName := "hello.txt"
+
+	content, err := ioutil.ReadFile(fileName)
+	checkError(err)
 }
 
 func checkError(err error) {
