@@ -1,12 +1,17 @@
 package main
 
-import "io/ioutil"
+import (
+	"fmt"
+	"io/ioutil"
+)
 
 func main() {
 	fileName := "hello.txt"
 
 	content, err := ioutil.ReadFile(fileName)
 	checkError(err)
+
+	fmt.Println("Read from file:", content)
 }
 
 func checkError(err error) {
