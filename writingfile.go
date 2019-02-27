@@ -17,6 +17,8 @@ func main() {
 	checkError(err)
 
 	fmt.Printf("All done with file of %v characters\n", ln)
+
+	bytes := []byte(content)
 }
 
 func checkError(err error) {
