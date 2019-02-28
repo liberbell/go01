@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
+	"math/big"
 	"net/http"
 	"strings"
 )
@@ -19,7 +20,12 @@ func main() {
 	// fmt.Println(content)
 
 	tours := toursFromJson(content)
-	fmt.Println(tours)
+	// fmt.Println(tours)
+
+	for _, tour := range tours {
+		price, _, _ := big.ParseFloat(tour.price, 10, 2, big.ToZero)
+		fmt.Printf("%v ($%.2f)", tour.Name, price)
+	}
 }
 
 func checkError(err error) {
