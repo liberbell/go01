@@ -45,6 +45,11 @@ func toursFromJson(content string) []Tour {
 
 	var tour Tour
 	for decorder.More() {
+		err := decorder.Decode(&tour)
+		checkError(err)
 
+		tours = append(tours, tour)
 	}
+
+	return tours
 }
