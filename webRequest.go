@@ -21,5 +21,5 @@ func main() {
 		panic(err)
 	}
 	content := string(bytes)
-	fmt.Printf("Body")
+	fmt.Print(content)
 }
