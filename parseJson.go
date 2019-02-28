@@ -23,7 +23,7 @@ func main() {
 	// fmt.Println(tours)
 
 	for _, tour := range tours {
-		price, _, _ := big.ParseFloat(tour.price, 10, 2, big.ToZero)
+		price, _, _ := big.ParseFloat(tour.Price, 10, 2, big.ToZero)
 		fmt.Printf("%v ($%.2f)", tour.Name, price)
 	}
 }
