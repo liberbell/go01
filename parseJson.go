@@ -10,7 +10,7 @@ import (
 )
 
 type Tour struct {
-	Name, Price string
+	Name, Price, Tourid string
 }
 
 func main() {
