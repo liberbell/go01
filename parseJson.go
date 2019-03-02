@@ -24,7 +24,8 @@ func main() {
 
 	for _, tour := range tours {
 		price, _, _ := big.ParseFloat(tour.Price, 10, 2, big.ToZero)
-		fmt.Printf("Tour title:%v Price:($%.2f)\n", tour.Name, price)
+		tourid, _, _ := big.ParseFloat(tour.Tourid, 10, 0, big.ToZero)
+		fmt.Printf("Tour id : %v Tour title:%v Price:($%.2f)\n", tourid, tour.Name, price)
 	}
 }
 
