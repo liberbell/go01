@@ -7,7 +7,7 @@ import (
 
 type Hello struct{}
 
-func (h Hello) serveHTTP(w http.ResponseWriter, r *http.Request) {
+func (h Hello) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprint(w, "<h1>Hello from the Go web server!</h1>")
 }
 
